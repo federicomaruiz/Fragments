@@ -14,12 +14,11 @@ class MainActivity : AppCompatActivity() {
         _binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // OTRA FORMA DE CREAR E INICIARLIZAR EL FRAMENTO
-        /* var myInitialFragment = InitialFragment()
+        var myInitialFragment = InitialFragment()
            val transaction =  supportFragmentManager.beginTransaction()
            transaction.add(binding.fcvTest.id, myInitialFragment)
            transaction.commit()
-        */
+
 
     }
 }

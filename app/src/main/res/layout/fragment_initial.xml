@@ -9,14 +9,6 @@
     tools:context=".InitialFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="305dp"
-        android:layout_height="325dp"
-        android:src="@tools:sample/avatars"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="225dp"
-        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/tv_initial_title"
@@ -33,13 +25,27 @@
         app:layout_constraintVertical_bias="0.12" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/fab_initial_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
         android:clickable="true"
         android:src="@drawable/baseline_arrow_forward_24"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="595dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="349dp"
+        android:layout_height="380dp"
+        android:src="@drawable/pic_initial"
+        app:layout_constraintBottom_toTopOf="@+id/fab_initial_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_initial_title"
+        app:layout_constraintVertical_bias="0.438" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

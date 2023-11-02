@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Fragments</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="title">¿Se te olvidan las tareas pendientes?</string>
+    <string name="title_fragment_dos">¿Necesitas orden para alcanzar tus metas?</string>
+    <string name="btn_registrate">Registrate</string>
+    <string name="title_fragment_sign_up">Ya casi está, yujuu!!</string>
+    <string name="btn_finalizar">Finalizar</string>
+    <string name="title_fragment_welcome">Bienvenid@</string>
+    <string name="description_welcome">Te enviaremos todas nuestras novedades a :</string>
+    <string name="sign_up_empty_filed_error">Error</string>
 </resources>
